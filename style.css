@@ -207,6 +207,10 @@ footer {
         min-height: 50vh;
     }
 
+    .blogs-container{
+        flex-wrap: wrap;
+    }
+
 
 }
 
