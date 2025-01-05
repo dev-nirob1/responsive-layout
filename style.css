@@ -210,7 +210,17 @@ footer {
     .blogs-container{
         flex-wrap: wrap;
     }
-
+    .testimonials {
+        padding: 20px;
+      
+    }
+    
+    .reviews {
+        padding: 20px;
+    }
+    .section-title {
+        font-size: 35px;
+    }
 
 }
 
