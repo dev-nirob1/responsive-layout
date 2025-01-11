@@ -89,7 +89,7 @@ section {
     display: flex;
     flex-direction: var(--flex-direction);
     justify-content: var(--justify-content);
-    width: 100%;
+    width: var(--component-width);
     gap: var(--component-gap);
 }
 
@@ -108,7 +108,7 @@ section {
     padding: var(--section-padding);
     text-align: var(--text-alignment);
     background-color: var(--component-bg-color);
-    width: 100%;
+    width: var(--component-width);
 }
 
 .testimonials,
@@ -140,13 +140,13 @@ section {
     justify-content: var(--justify-content);
     align-items: var(--align-items);
     gap: var(--component-gap);
-    width: 100%;
+    width: var(--component-width);
     margin-top: 20px;
 }
 
 .blog-card {
     border: 1px solid #000000;
-    width: 100%;
+    width: var(--component-width);
 }
 
 footer {
